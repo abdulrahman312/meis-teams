@@ -41,7 +41,7 @@ export default function App() {
   const [enlargedImage, setEnlargedImage] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const videoDriveDirectUrl = 'https://drive.google.com/file/d/1O_crXBYhxNWoxAbLEfc4zf3jANY2YGMF/view?usp=sharing';
+  const videoDriveDirectUrl = 'https://drive.google.com/file/d/1-G9V6KCceT7rZqVqJu6aWLGeZIcWD0gm/view?usp=sharing';
   const itsmPortalUrl = 'https://ataa-dwp.onbmc.com/';
 
   const handleSearch = async (e?: React.FormEvent) => {
