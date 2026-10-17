@@ -1,0 +1,6 @@
+{
+  "name": "Middle East International School - Teams Account Lookup",
+  "description": "Official Microsoft Teams account and credentials lookup portal for teachers and staff of Middle East International School.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
