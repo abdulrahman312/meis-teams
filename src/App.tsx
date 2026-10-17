@@ -389,31 +389,15 @@ export default function App() {
               </a>
             </div>
 
-            {/* Official Announcement / Circular Box in Arabic and English */}
-            <div className="p-4 sm:p-5 rounded-xl bg-slate-50 border border-slate-200/90 mb-6">
-              <div className="text-right font-arabic leading-relaxed text-sm text-slate-800 space-y-2 mb-4 pb-4 border-b border-slate-200/70" dir="rtl">
-                <p className="font-bold text-base text-[#0d3880]">السلام عليكم ورحمه الله وبركاته</p>
-                <p className="font-semibold text-slate-700">تحية طيبة وبعد،</p>
-                <p className="text-slate-700">
-                  نظراً لتعليمات إدارة تقنية المعلومات بشركة <span className="font-bold text-slate-900">عطاء التعليمية</span> بخصوص طلبات التقنية، نود التنويه بأنه <span className="font-bold text-rose-600">لن يتم قبول أي طلبات خاصة بالتقنية إلا من خلال منصة ITSM</span>، وذلك حرصاً منا على تقديم أعلى جودة في حل المشاكل التقنية والاستجابة السريعة للطلبات.
-                </p>
-                <div className="pt-2">
-                  <a
-                    href={itsmPortalUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 font-bold text-[#4c3575] hover:text-[#3c2a5c] underline text-sm"
-                  >
-                    <span>رابط المنصة لرفع الطلبات التقنية: {itsmPortalUrl}</span>
-                    <ExternalLink className="w-4 h-4 inline" />
-                  </a>
-                </div>
+            {/* Guidance Box for Teachers */}
+            <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/90 mb-6 flex items-start gap-3">
+              <div className="w-8 h-8 rounded-lg bg-purple-100 text-[#4c3575] flex items-center justify-center shrink-0 mt-0.5">
+                <LifeBuoy className="w-4 h-4" />
               </div>
-
               <div className="text-xs text-slate-600 space-y-1">
                 <p className="font-semibold text-slate-800">For Teachers and Staff:</p>
                 <p>
-                  If you could not find your Teams account in the directory above, or are experiencing login issues or need a password reset, please submit a formal technical request via the official Ataa Educational ITSM portal.
+                  If you could not find your Teams account in the directory above, or are experiencing login issues or need a password reset, please submit a formal technical request via the official Ataa Educational ITSM portal using the steps below.
                 </p>
               </div>
             </div>
